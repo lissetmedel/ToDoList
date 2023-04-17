@@ -1,11 +1,9 @@
 {
   "name": "Mi TODOLIST PWA",
   "short_name": "Mi PWA",
-  "start_url": "/",
   "display": "standalone",
   "background_color": "#ff88ff",
   "lang": "es",
-  "scope": "/",
   "description": "Aplicación para realizar todas las actividades de desarrollo de PWA",
   "theme_color": "#40C090",
   "icons": [
