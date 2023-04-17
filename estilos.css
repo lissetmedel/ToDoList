@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: rgba(52, 73, 94,1);
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: #2c3e50;
+	padding: 20px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+	header>h1{
+		color: rgba(255, 255, 255, .9);
+		font-weight: 300;
+	}
+	header>h6{
+		color: rgba(255, 255, 255, .5);
+		font-size: 14px;
+		font-weight: 300;
+	}
+
+section{
+	width: 100%;
+	height: 100%;
+	background: rgba(52, 73, 94,.9);
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	margin-top: 100px;
+}
+	article{
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+		article>input{
+			width: calc(100% - 60px);
+			height: 40px;
+			border-radius: 20px;
+			border: none;
+			padding: 0px 15px;
+			box-sizing: border-box;
+			outline: none;
+			background: rgba(255, 255, 255, .2);
+			color: rgba(255, 255, 255, .8);
+		}
+		article>input::placeholder{
+			color: rgba(255, 255, 255, .7);
+		}
+		article>button{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			color: white;
+			background: rgba(52, 152, 219,1.0);
+			border: none;
+			outline: none;
+			font-size: 20px;
+			font-weight: 500;
+			margin-left: 10px;
+		}
+
+	.tarea{
+		height: 50px;
+		border-radius: 25px;
+		width: 100%;
+		background: rgba(255,255,255,.1);
+		margin: 5px 0px;
+		line-height: 50px;
+		box-sizing: border-box;
+		padding: 0px 15px;
+		float: left;
+		color: white;
+	}
+
+	h2{
+		color: white;
+		padding: 0px;
+		margin: 25px 0 10px 0;
+		width: 100%;
+		float: left;
+	}
+
+	.check{
+		width: 20px;
+		height: 20px;
+		border-radius: 2px;
+		border:2px solid white;
+		float: left;
+		margin-top: 12px;
+		margin-right: 10px;
+	}
+
+	
+
+	.terminado .tarea{
+		opacity: .2;
+		text-decoration: line-through;
+	}
+
+	.terminado .check{
+		background: white;
+		box-shadow: inset 4px 4px rgba(52, 73, 94,.9), inset -4px -4px rgba(52, 73, 94,.9);
+	}
+
+
+
+
