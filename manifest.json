@@ -1,11 +1,11 @@
 {
   "name": "Mi TODOLIST PWA",
-  "short_name": "Mi PWA",
+  "short_name": "TODOLIST",
   "display": "standalone",
-  "background_color": "#ff88ff",
+  "background_color": "#34495e",
   "lang": "es",
-  "description": "Aplicación para realizar todas las actividades de desarrollo de PWA",
-  "theme_color": "#40C090",
+  "description": "App de notas para pendientes y tareas por hacer",
+  "theme_color": "#2c3e50",
   "icons": [
     {
       "src": "pwa-192x192.png",
